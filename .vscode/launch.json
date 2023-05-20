@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug",
+      "cwd": "${workspaceRoot}",
+      "program": "${workspaceRoot}/src/main.ts",
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceRoot}/build/**/*.js"
+      ],
+      "preLaunchTask": "build",
+      "stopOnEntry": true,
+      "console": "internalConsole"
+    }
+  ]
+}
